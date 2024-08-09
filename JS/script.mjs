@@ -1,6 +1,12 @@
 import products from "../products.json" with { type: "json" }
+
+
+
 let local_cart_products = localStorage.getItem("cart_items")
 let cart_products;
+
+location.reload()
+
 
 if(local_cart_products===null)
 {
